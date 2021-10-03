@@ -1,0 +1,24 @@
+início {
+    inteiro: idade;
+    leia ("idade", idade);
+    
+    caractere: categoria;
+    
+    se (idade < 0){
+        categoria = "idade invalida";
+    } senão se ( idade < 13){
+        
+        categoria = "sua idade entra como criança";
+        
+    } senão se ( idade < 18){
+        
+        categoria = "sua idade entra como adolescente";
+        
+    } senão {
+        
+        categoria = "sua idade entra como adulto";
+        
+    }
+    
+    escreva(categoria);
+}
