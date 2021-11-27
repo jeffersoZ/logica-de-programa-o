@@ -1,0 +1,25 @@
+início {
+    real: nota;
+    real: media;
+    real: soma;
+    inteiro: n;
+    
+    n = 1;
+    soma = 0;
+    
+    enquanto(nota >= 0 ) {
+        leia("Nota " + n, nota);
+        
+        se (nota >= 0) {
+            soma = soma + nota;
+            n = n + 1;
+        }
+    }
+    n = n - 1;
+    media = soma / n;
+    
+     escreva("A média é " + media);
+}
+
+
+//mudando o algoritimo de media para nao se limitar a quantas notas (no caso era 3) o algoritimo pode fazer a media e tambem explicou como fazer tste de mesa.
